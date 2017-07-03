@@ -1,5 +1,6 @@
 # icub-gazebo-skin
-Gazebo Plugin for the iCub Skin
+
+![icub-skin](http://www.ausy.tu-darmstadt.de/uploads/Research/SkinGazeboYarpPlugin/skin_torso.png)
 
 This is the Gazebo-Yarp Plugin to simulate the iCub Skin. 
 This code was developed as part of a student project and its final report is available [here](http://www.ausy.tu-darmstadt.de/uploads/Team/RobertoCalandra/Moritz_Jan_Towards_Balancing_with_the_iCub.pdf) (also contain few technical information).
