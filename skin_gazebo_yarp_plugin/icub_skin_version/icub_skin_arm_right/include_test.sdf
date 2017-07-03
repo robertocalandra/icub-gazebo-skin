@@ -1,0 +1,21 @@
+<collision name="box_collision">
+          <geometry>
+            <box>
+               <size>0.6 0.6 0.6</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.6 0.6 0.6</size>
+            </box>
+          </geometry>
+        </visual>
+<sensor name='my_contact' type='contact'>
+	<plugin name="my_plugin" filename="libcontact.so"/>          
+<contact>
+            <collision>box_collision</collision>
+          </contact>
+        </sensor>

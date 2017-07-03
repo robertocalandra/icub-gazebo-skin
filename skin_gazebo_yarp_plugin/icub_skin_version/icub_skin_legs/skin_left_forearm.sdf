@@ -1,0 +1,4602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdf version="1.4">
+  <collision name="box_collision1">
+    <pose>-0.031 0.06500000000000002 0.0309 -0.976 0.065 0.146</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual1">
+    <pose>-0.031 0.06500000000000002 0.0309 -0.976 0.065 0.146</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact1" type="contact">
+    <contact>
+      <collision>box_collision1</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision2">
+    <pose>-0.031 0.06100000000000001 0.0279 -0.739 0.078 0.105</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual2">
+    <pose>-0.031 0.06100000000000001 0.0279 -0.739 0.078 0.105</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact2" type="contact">
+    <contact>
+      <collision>box_collision2</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision3">
+    <pose>-0.031 0.06500000000000002 0.0269 -0.6 0.054 0.068</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual3">
+    <pose>-0.031 0.06500000000000002 0.0269 -0.6 0.054 0.068</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact3" type="contact">
+    <contact>
+      <collision>box_collision3</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision4">
+    <pose>-0.03 0.07 0.0279 -0.981 0.133 0.089</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual4">
+    <pose>-0.03 0.07 0.0279 -0.981 0.133 0.089</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact4" type="contact">
+    <contact>
+      <collision>box_collision4</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision5">
+    <pose>-0.03 0.07400000000000001 0.0269 -0.661 0.004 0.082</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual5">
+    <pose>-0.03 0.07400000000000001 0.0269 -0.661 0.004 0.082</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact5" type="contact">
+    <contact>
+      <collision>box_collision5</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision6">
+    <pose>-0.03 0.08000000000000002 0.0279 -0.985 0.055 0.135</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual6">
+    <pose>-0.03 0.08000000000000002 0.0279 -0.985 0.055 0.135</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact6" type="contact">
+    <contact>
+      <collision>box_collision6</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision7">
+    <pose>-0.03 0.07700000000000001 0.028900000000000002 -0.982 0.11 0.115</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual7">
+    <pose>-0.03 0.07700000000000001 0.028900000000000002 -0.982 0.11 0.115</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact7" type="contact">
+    <contact>
+      <collision>box_collision7</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision8">
+    <pose>-0.03 0.07400000000000001 0.0329 -0.974 0.054 0.129</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual8">
+    <pose>-0.03 0.07400000000000001 0.0329 -0.974 0.054 0.129</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact8" type="contact">
+    <contact>
+      <collision>box_collision8</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision9">
+    <pose>-0.029 0.07300000000000001 0.0379 -0.971 0.074 0.173</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual9">
+    <pose>-0.029 0.07300000000000001 0.0379 -0.971 0.074 0.173</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact9" type="contact">
+    <contact>
+      <collision>box_collision9</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision10">
+    <pose>-0.027 0.07300000000000001 0.0439 -0.914 0.094 0.369</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual10">
+    <pose>-0.027 0.07300000000000001 0.0439 -0.914 0.094 0.369</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact10" type="contact">
+    <contact>
+      <collision>box_collision10</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision11">
+    <pose>-0.029 0.06900000000000002 0.038900000000000004 -0.951 0.079 0.238</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual11">
+    <pose>-0.029 0.06900000000000002 0.038900000000000004 -0.951 0.079 0.238</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact11" type="contact">
+    <contact>
+      <collision>box_collision11</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision12">
+    <pose>-0.03 0.06900000000000002 0.0329 -0.979 0.135 0.098</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual12">
+    <pose>-0.03 0.06900000000000002 0.0329 -0.979 0.135 0.098</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact12" type="contact">
+    <contact>
+      <collision>box_collision12</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision13">
+    <pose>-0.03 0.05400000000000002 0.0369 -0.975 0.068 0.185</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual13">
+    <pose>-0.03 0.05400000000000002 0.0369 -0.975 0.068 0.185</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact13" type="contact">
+    <contact>
+      <collision>box_collision13</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision14">
+    <pose>-0.031 0.05600000000000001 0.0329 -0.994 0.052 0.097</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual14">
+    <pose>-0.031 0.05600000000000001 0.0329 -0.994 0.052 0.097</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact14" type="contact">
+    <contact>
+      <collision>box_collision14</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision15">
+    <pose>-0.03 0.05700000000000001 0.0359 -0.974 0.064 0.176</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual15">
+    <pose>-0.03 0.05700000000000001 0.0359 -0.974 0.064 0.176</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact15" type="contact">
+    <contact>
+      <collision>box_collision15</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision16">
+    <pose>-0.03 0.05900000000000001 0.0409 -0.953 0.09 0.245</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual16">
+    <pose>-0.03 0.05900000000000001 0.0409 -0.953 0.09 0.245</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact16" type="contact">
+    <contact>
+      <collision>box_collision16</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision17">
+    <pose>-0.028 0.06200000000000001 0.0439 -0.947 0.136 0.253</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual17">
+    <pose>-0.028 0.06200000000000001 0.0439 -0.947 0.136 0.253</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact17" type="contact">
+    <contact>
+      <collision>box_collision17</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision18">
+    <pose>-0.026 0.06400000000000002 0.0479 -0.915 0.114 0.357</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual18">
+    <pose>-0.026 0.06400000000000002 0.0479 -0.915 0.114 0.357</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact18" type="contact">
+    <contact>
+      <collision>box_collision18</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision19">
+    <pose>-0.027 0.06100000000000001 0.0469 -0.908 0.079 0.404</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual19">
+    <pose>-0.027 0.06100000000000001 0.0469 -0.908 0.079 0.404</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact19" type="contact">
+    <contact>
+      <collision>box_collision19</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision20">
+    <pose>-0.028 0.05600000000000001 0.045899999999999996 -0.922 0.063 0.358</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual20">
+    <pose>-0.028 0.05600000000000001 0.045899999999999996 -0.922 0.063 0.358</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact20" type="contact">
+    <contact>
+      <collision>box_collision20</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision21">
+    <pose>-0.028 0.05100000000000002 0.0479 -0.896 0.1 0.425</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual21">
+    <pose>-0.028 0.05100000000000002 0.0479 -0.896 0.1 0.425</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact21" type="contact">
+    <contact>
+      <collision>box_collision21</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision22">
+    <pose>-0.026 0.048000000000000015 0.0499 -0.886 0.054 0.438</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual22">
+    <pose>-0.026 0.048000000000000015 0.0499 -0.886 0.054 0.438</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact22" type="contact">
+    <contact>
+      <collision>box_collision22</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision23">
+    <pose>-0.029 0.05000000000000002 0.044899999999999995 -0.946 0.06 0.274</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual23">
+    <pose>-0.029 0.05000000000000002 0.044899999999999995 -0.946 0.06 0.274</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact23" type="contact">
+    <contact>
+      <collision>box_collision23</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision24">
+    <pose>-0.03 0.05300000000000002 0.0409 -0.956 0.056 0.26</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual24">
+    <pose>-0.03 0.05300000000000002 0.0409 -0.956 0.056 0.26</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact24" type="contact">
+    <contact>
+      <collision>box_collision24</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision25">
+    <pose>-0.032 0.04300000000000001 0.0299 -0.995 0.042 0.071</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual25">
+    <pose>-0.032 0.04300000000000001 0.0299 -0.995 0.042 0.071</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact25" type="contact">
+    <contact>
+      <collision>box_collision25</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision26">
+    <pose>-0.032 0.048000000000000015 0.0299 -0.988 0.039 0.104</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual26">
+    <pose>-0.032 0.048000000000000015 0.0299 -0.988 0.039 0.104</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact26" type="contact">
+    <contact>
+      <collision>box_collision26</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision27">
+    <pose>-0.031 0.04600000000000001 0.0329 -0.984 0.102 0.121</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual27">
+    <pose>-0.031 0.04600000000000001 0.0329 -0.984 0.102 0.121</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact27" type="contact">
+    <contact>
+      <collision>box_collision27</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision28">
+    <pose>-0.031 0.04300000000000001 0.0369 -0.964 0.06 0.205</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual28">
+    <pose>-0.031 0.04300000000000001 0.0369 -0.964 0.06 0.205</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact28" type="contact">
+    <contact>
+      <collision>box_collision28</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision29">
+    <pose>-0.03 0.04100000000000001 0.0419 -0.964 0.067 0.217</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual29">
+    <pose>-0.03 0.04100000000000001 0.0419 -0.964 0.067 0.217</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact29" type="contact">
+    <contact>
+      <collision>box_collision29</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision30">
+    <pose>-0.028 0.04100000000000001 0.0479 -0.89 0.031 0.395</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual30">
+    <pose>-0.028 0.04100000000000001 0.0479 -0.89 0.031 0.395</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact30" type="contact">
+    <contact>
+      <collision>box_collision30</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision31">
+    <pose>-0.03 0.03800000000000002 0.0419 -0.91 -0.095 0.282</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual31">
+    <pose>-0.03 0.03800000000000002 0.0419 -0.91 -0.095 0.282</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact31" type="contact">
+    <contact>
+      <collision>box_collision31</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision32">
+    <pose>-0.031 0.03700000000000002 0.0379 -0.981 0.071 0.147</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual32">
+    <pose>-0.031 0.03700000000000002 0.0379 -0.981 0.071 0.147</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact32" type="contact">
+    <contact>
+      <collision>box_collision32</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision33">
+    <pose>-0.032 0.034000000000000016 0.0359 -0.911 -0.141 0.259</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual33">
+    <pose>-0.032 0.034000000000000016 0.0359 -0.911 -0.141 0.259</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact33" type="contact">
+    <contact>
+      <collision>box_collision33</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision34">
+    <pose>-0.032 0.032000000000000015 0.0339 -0.63 -0.494 0.3</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual34">
+    <pose>-0.032 0.032000000000000015 0.0339 -0.63 -0.494 0.3</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact34" type="contact">
+    <contact>
+      <collision>box_collision34</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision35">
+    <pose>-0.032 0.03500000000000002 0.0319 -0.992 0.062 0.11</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual35">
+    <pose>-0.032 0.03500000000000002 0.0319 -0.992 0.062 0.11</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact35" type="contact">
+    <contact>
+      <collision>box_collision35</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision36">
+    <pose>-0.032 0.03900000000000001 0.0319 -0.986 0.054 0.131</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual36">
+    <pose>-0.032 0.03900000000000001 0.0319 -0.986 0.054 0.131</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact36" type="contact">
+    <contact>
+      <collision>box_collision36</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision37">
+    <pose>0.029 0.06400000000000002 0.039900000000000005 0.907 0.108 0.358</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual37">
+    <pose>0.029 0.06400000000000002 0.039900000000000005 0.907 0.108 0.358</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact37" type="contact">
+    <contact>
+      <collision>box_collision37</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision38">
+    <pose>0.029 0.06000000000000001 0.0409 0.909 0.109 0.379</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual38">
+    <pose>0.029 0.06000000000000001 0.0409 0.909 0.109 0.379</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact38" type="contact">
+    <contact>
+      <collision>box_collision38</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision39">
+    <pose>0.028 0.06300000000000001 0.0439 0.862 0.16 0.419</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual39">
+    <pose>0.028 0.06300000000000001 0.0439 0.862 0.16 0.419</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact39" type="contact">
+    <contact>
+      <collision>box_collision39</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision40">
+    <pose>0.026 0.06800000000000002 0.0469 0.886 0.085 0.42</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual40">
+    <pose>0.026 0.06800000000000002 0.0469 0.886 0.085 0.42</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact40" type="contact">
+    <contact>
+      <collision>box_collision40</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision41">
+    <pose>0.024 0.06800000000000002 0.0509 0.813 0.132 0.534</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual41">
+    <pose>0.024 0.06800000000000002 0.0509 0.813 0.132 0.534</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact41" type="contact">
+    <contact>
+      <collision>box_collision41</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision42">
+    <pose>0.02 0.07200000000000001 0.054900000000000004 0.683 0.119 0.697</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual42">
+    <pose>0.02 0.07200000000000001 0.054900000000000004 0.683 0.119 0.697</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact42" type="contact">
+    <contact>
+      <collision>box_collision42</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision43">
+    <pose>0.023 0.07300000000000001 0.0509 0.833 0.16 0.507</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual43">
+    <pose>0.023 0.07300000000000001 0.0509 0.833 0.16 0.507</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact43" type="contact">
+    <contact>
+      <collision>box_collision43</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision44">
+    <pose>0.026 0.07300000000000001 0.045899999999999996 0.894 0.079 0.421</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual44">
+    <pose>0.026 0.07300000000000001 0.045899999999999996 0.894 0.079 0.421</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact44" type="contact">
+    <contact>
+      <collision>box_collision44</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision45">
+    <pose>0.027 0.07600000000000001 0.0419 0.866 0.204 0.434</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual45">
+    <pose>0.027 0.07600000000000001 0.0419 0.866 0.204 0.434</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact45" type="contact">
+    <contact>
+      <collision>box_collision45</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision46">
+    <pose>0.028 0.07800000000000001 0.039900000000000005 0.867 0.028 0.46</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual46">
+    <pose>0.028 0.07800000000000001 0.039900000000000005 0.867 0.028 0.46</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact46" type="contact">
+    <contact>
+      <collision>box_collision46</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision47">
+    <pose>0.028 0.07300000000000001 0.039900000000000005 0.932 0.071 0.356</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual47">
+    <pose>0.028 0.07300000000000001 0.039900000000000005 0.932 0.071 0.356</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact47" type="contact">
+    <contact>
+      <collision>box_collision47</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision48">
+    <pose>0.028 0.06900000000000002 0.0409 0.901 0.102 0.397</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual48">
+    <pose>0.028 0.06900000000000002 0.0409 0.901 0.102 0.397</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact48" type="contact">
+    <contact>
+      <collision>box_collision48</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision49">
+    <pose>0.024 0.08900000000000002 0.044899999999999995 0.832 0.252 0.434</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual49">
+    <pose>0.024 0.08900000000000002 0.044899999999999995 0.832 0.252 0.434</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact49" type="contact">
+    <contact>
+      <collision>box_collision49</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision50">
+    <pose>0.026 0.08800000000000002 0.0419 0.847 0.243 0.403</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual50">
+    <pose>0.026 0.08800000000000002 0.0419 0.847 0.243 0.403</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact50" type="contact">
+    <contact>
+      <collision>box_collision50</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision51">
+    <pose>0.024 0.08500000000000002 0.0469 0.852 0.098 0.494</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual51">
+    <pose>0.024 0.08500000000000002 0.0469 0.852 0.098 0.494</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact51" type="contact">
+    <contact>
+      <collision>box_collision51</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision52">
+    <pose>0.021 0.08600000000000002 0.0509 0.777 0.164 0.587</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual52">
+    <pose>0.021 0.08600000000000002 0.0509 0.777 0.164 0.587</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact52" type="contact">
+    <contact>
+      <collision>box_collision52</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision53">
+    <pose>0.02 0.08200000000000002 0.0539 0.739 0.066 0.622</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual53">
+    <pose>0.02 0.08200000000000002 0.0539 0.739 0.066 0.622</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact53" type="contact">
+    <contact>
+      <collision>box_collision53</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision54">
+    <pose>0.017 0.07900000000000001 0.056900000000000006 0.63 0.155 0.71</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual54">
+    <pose>0.017 0.07900000000000001 0.056900000000000006 0.63 0.155 0.71</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact54" type="contact">
+    <contact>
+      <collision>box_collision54</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision55">
+    <pose>0.016 0.08400000000000002 0.055900000000000005 0.557 0.12 0.803</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual55">
+    <pose>0.016 0.08400000000000002 0.055900000000000005 0.557 0.12 0.803</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact55" type="contact">
+    <contact>
+      <collision>box_collision55</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision56">
+    <pose>0.017 0.08900000000000002 0.054900000000000004 0.647 0.102 0.742</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual56">
+    <pose>0.017 0.08900000000000002 0.054900000000000004 0.647 0.102 0.742</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact56" type="contact">
+    <contact>
+      <collision>box_collision56</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision57">
+    <pose>0.017 0.09200000000000001 0.054900000000000004 0.66 0.168 0.712</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual57">
+    <pose>0.017 0.09200000000000001 0.054900000000000004 0.66 0.168 0.712</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact57" type="contact">
+    <contact>
+      <collision>box_collision57</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision58">
+    <pose>0.016 0.09600000000000002 0.0539 0.605 0.24 0.749</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual58">
+    <pose>0.016 0.09600000000000002 0.0539 0.605 0.24 0.749</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact58" type="contact">
+    <contact>
+      <collision>box_collision58</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision59">
+    <pose>0.019 0.09300000000000001 0.0519 0.773 0.3 0.504</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual59">
+    <pose>0.019 0.09300000000000001 0.0519 0.773 0.3 0.504</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact59" type="contact">
+    <contact>
+      <collision>box_collision59</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision60">
+    <pose>0.021 0.09000000000000001 0.0499 0.789 0.164 0.585</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual60">
+    <pose>0.021 0.09000000000000001 0.0499 0.789 0.164 0.585</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact60" type="contact">
+    <contact>
+      <collision>box_collision60</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision61">
+    <pose>0.008 0.08600000000000002 0.060899999999999996 0.377 -0.005 0.916</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual61">
+    <pose>0.008 0.08600000000000002 0.060899999999999996 0.377 -0.005 0.916</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact61" type="contact">
+    <contact>
+      <collision>box_collision61</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision62">
+    <pose>0.007 0.08300000000000002 0.060899999999999996 0.326 0.115 0.913</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual62">
+    <pose>0.007 0.08300000000000002 0.060899999999999996 0.326 0.115 0.913</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact62" type="contact">
+    <contact>
+      <collision>box_collision62</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision63">
+    <pose>0.006 0.08600000000000002 0.0619 0.2 0.013 0.966</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual63">
+    <pose>0.006 0.08600000000000002 0.0619 0.2 0.013 0.966</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact63" type="contact">
+    <contact>
+      <collision>box_collision63</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision64">
+    <pose>0.005 0.08800000000000002 0.0619 0.148 0.04 0.965</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual64">
+    <pose>0.005 0.08800000000000002 0.0619 0.148 0.04 0.965</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact64" type="contact">
+    <contact>
+      <collision>box_collision64</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision65">
+    <pose>-0.001 0.09000000000000001 0.0619 -0.059 0.096 0.985</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual65">
+    <pose>-0.001 0.09000000000000001 0.0619 -0.059 0.096 0.985</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact65" type="contact">
+    <contact>
+      <collision>box_collision65</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision66">
+    <pose>-0.006 0.08900000000000002 0.060899999999999996 -0.318 0.272 0.87</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual66">
+    <pose>-0.006 0.08900000000000002 0.060899999999999996 -0.318 0.272 0.87</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact66" type="contact">
+    <contact>
+      <collision>box_collision66</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision67">
+    <pose>-0.001 0.09300000000000001 0.060899999999999996 -0.148 0.472 0.764</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual67">
+    <pose>-0.001 0.09300000000000001 0.060899999999999996 -0.148 0.472 0.764</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact67" type="contact">
+    <contact>
+      <collision>box_collision67</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision68">
+    <pose>0.005 0.09300000000000001 0.060899999999999996 0.169 0.182 0.949</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual68">
+    <pose>0.005 0.09300000000000001 0.060899999999999996 0.169 0.182 0.949</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact68" type="contact">
+    <contact>
+      <collision>box_collision68</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision69">
+    <pose>0.007 0.09600000000000002 0.059899999999999995 0.135 0.396 0.797</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual69">
+    <pose>0.007 0.09600000000000002 0.059899999999999995 0.135 0.396 0.797</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact69" type="contact">
+    <contact>
+      <collision>box_collision69</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision70">
+    <pose>0.01 0.09700000000000002 0.058899999999999994 0.081 0.589 0.608</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual70">
+    <pose>0.01 0.09700000000000002 0.058899999999999994 0.081 0.589 0.608</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact70" type="contact">
+    <contact>
+      <collision>box_collision70</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision71">
+    <pose>0.01 0.09200000000000001 0.059899999999999995 0.467 0.15 0.86</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual71">
+    <pose>0.01 0.09200000000000001 0.059899999999999995 0.467 0.15 0.86</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact71" type="contact">
+    <contact>
+      <collision>box_collision71</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision72">
+    <pose>0.009 0.08900000000000002 0.060899999999999996 0.407 0.094 0.898</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual72">
+    <pose>0.009 0.08900000000000002 0.060899999999999996 0.407 0.094 0.898</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact72" type="contact">
+    <contact>
+      <collision>box_collision72</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision73">
+    <pose>0.021 0.049000000000000016 0.05790000000000001 0.77 0.02 0.59</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual73">
+    <pose>0.021 0.049000000000000016 0.05790000000000001 0.77 0.02 0.59</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact73" type="contact">
+    <contact>
+      <collision>box_collision73</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision74">
+    <pose>0.018 0.04600000000000001 0.059899999999999995 0.622 0.02 0.737</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual74">
+    <pose>0.018 0.04600000000000001 0.059899999999999995 0.622 0.02 0.737</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact74" type="contact">
+    <contact>
+      <collision>box_collision74</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision75">
+    <pose>0.018 0.05100000000000002 0.059899999999999995 0.59 0.097 0.788</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual75">
+    <pose>0.018 0.05100000000000002 0.059899999999999995 0.59 0.097 0.788</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact75" type="contact">
+    <contact>
+      <collision>box_collision75</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision76">
+    <pose>0.019 0.05500000000000001 0.058899999999999994 0.678 0.072 0.699</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual76">
+    <pose>0.019 0.05500000000000001 0.058899999999999994 0.678 0.072 0.699</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact76" type="contact">
+    <contact>
+      <collision>box_collision76</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision77">
+    <pose>0.017 0.06000000000000001 0.059899999999999995 0.566 0.074 0.809</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual77">
+    <pose>0.017 0.06000000000000001 0.059899999999999995 0.566 0.074 0.809</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact77" type="contact">
+    <contact>
+      <collision>box_collision77</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision78">
+    <pose>0.017 0.06500000000000002 0.058899999999999994 0.594 0.113 0.778</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual78">
+    <pose>0.017 0.06500000000000002 0.058899999999999994 0.594 0.113 0.778</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact78" type="contact">
+    <contact>
+      <collision>box_collision78</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision79">
+    <pose>0.021 0.06200000000000001 0.055900000000000005 0.791 0.098 0.553</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual79">
+    <pose>0.021 0.06200000000000001 0.055900000000000005 0.791 0.098 0.553</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact79" type="contact">
+    <contact>
+      <collision>box_collision79</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision80">
+    <pose>0.023 0.05800000000000001 0.0539 0.79 0.066 0.567</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual80">
+    <pose>0.023 0.05800000000000001 0.0539 0.79 0.066 0.567</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact80" type="contact">
+    <contact>
+      <collision>box_collision80</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision81">
+    <pose>0.026 0.05700000000000001 0.0489 0.847 0.107 0.491</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual81">
+    <pose>0.026 0.05700000000000001 0.0489 0.847 0.107 0.491</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact81" type="contact">
+    <contact>
+      <collision>box_collision81</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision82">
+    <pose>0.028 0.05600000000000001 0.045899999999999996 0.91 0.088 0.396</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual82">
+    <pose>0.028 0.05600000000000001 0.045899999999999996 0.91 0.088 0.396</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact82" type="contact">
+    <contact>
+      <collision>box_collision82</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision83">
+    <pose>0.026 0.05300000000000002 0.0499 0.882 0.007 0.457</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual83">
+    <pose>0.026 0.05300000000000002 0.0499 0.882 0.007 0.457</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact83" type="contact">
+    <contact>
+      <collision>box_collision83</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision84">
+    <pose>0.023 0.05200000000000002 0.0539 0.798 0.046 0.571</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual84">
+    <pose>0.023 0.05200000000000002 0.0539 0.798 0.046 0.571</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact84" type="contact">
+    <contact>
+      <collision>box_collision84</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision85">
+    <pose>0.024 0.03700000000000002 0.054900000000000004 0.592 -0.288 0.535</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual85">
+    <pose>0.024 0.03700000000000002 0.054900000000000004 0.592 -0.288 0.535</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact85" type="contact">
+    <contact>
+      <collision>box_collision85</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision86">
+    <pose>0.021 0.03900000000000001 0.05790000000000001 0.54 -0.175 0.751</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual86">
+    <pose>0.021 0.03900000000000001 0.05790000000000001 0.54 -0.175 0.751</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact86" type="contact">
+    <contact>
+      <collision>box_collision86</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision87">
+    <pose>0.023 0.04100000000000001 0.054900000000000004 0.814 0.062 0.538</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual87">
+    <pose>0.023 0.04100000000000001 0.054900000000000004 0.814 0.062 0.538</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact87" type="contact">
+    <contact>
+      <collision>box_collision87</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision88">
+    <pose>0.027 0.04100000000000001 0.0499 0.88 -0.009 0.426</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual88">
+    <pose>0.027 0.04100000000000001 0.0499 0.88 -0.009 0.426</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact88" type="contact">
+    <contact>
+      <collision>box_collision88</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision89">
+    <pose>0.028 0.04400000000000001 0.045899999999999996 0.86 0.086 0.457</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual89">
+    <pose>0.028 0.04400000000000001 0.045899999999999996 0.86 0.086 0.457</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact89" type="contact">
+    <contact>
+      <collision>box_collision89</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision90">
+    <pose>0.029 0.047000000000000014 0.0419 0.91 0.013 0.383</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual90">
+    <pose>0.029 0.047000000000000014 0.0419 0.91 0.013 0.383</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact90" type="contact">
+    <contact>
+      <collision>box_collision90</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision91">
+    <pose>0.03 0.04200000000000001 0.0419 0.937 0.041 0.346</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual91">
+    <pose>0.03 0.04200000000000001 0.0419 0.937 0.041 0.346</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact91" type="contact">
+    <contact>
+      <collision>box_collision91</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision92">
+    <pose>0.029 0.03900000000000001 0.044899999999999995 0.893 0.022 0.408</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual92">
+    <pose>0.029 0.03900000000000001 0.044899999999999995 0.893 0.022 0.408</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact92" type="contact">
+    <contact>
+      <collision>box_collision92</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision93">
+    <pose>0.029 0.034000000000000016 0.0439 0.935 0.043 0.352</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual93">
+    <pose>0.029 0.034000000000000016 0.0439 0.935 0.043 0.352</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact93" type="contact">
+    <contact>
+      <collision>box_collision93</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision94">
+    <pose>0.029 0.032000000000000015 0.0439 0.383 -0.604 0.374</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual94">
+    <pose>0.029 0.032000000000000015 0.0439 0.383 -0.604 0.374</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact94" type="contact">
+    <contact>
+      <collision>box_collision94</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision95">
+    <pose>0.028 0.033000000000000015 0.0469 0.763 -0.192 0.435</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual95">
+    <pose>0.028 0.033000000000000015 0.0469 0.763 -0.192 0.435</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact95" type="contact">
+    <contact>
+      <collision>box_collision95</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision96">
+    <pose>0.027 0.03600000000000002 0.0499 0.891 0.063 0.426</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual96">
+    <pose>0.027 0.03600000000000002 0.0499 0.891 0.063 0.426</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact96" type="contact">
+    <contact>
+      <collision>box_collision96</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision97">
+    <pose>-0.005 0.03500000000000002 0.0659 0.037 -0.421 0.703</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual97">
+    <pose>-0.005 0.03500000000000002 0.0659 0.037 -0.421 0.703</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact97" type="contact">
+    <contact>
+      <collision>box_collision97</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision98">
+    <pose>-0.008 0.03500000000000002 0.0659 -0.155 -0.248 0.764</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual98">
+    <pose>-0.008 0.03500000000000002 0.0659 -0.155 -0.248 0.764</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact98" type="contact">
+    <contact>
+      <collision>box_collision98</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision99">
+    <pose>-0.008 0.03700000000000002 0.0659 -0.25 0.064 0.957</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual99">
+    <pose>-0.008 0.03700000000000002 0.0659 -0.25 0.064 0.957</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact99" type="contact">
+    <contact>
+      <collision>box_collision99</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision100">
+    <pose>-0.007 0.04300000000000001 0.0659 -0.245 0.058 0.961</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual100">
+    <pose>-0.007 0.04300000000000001 0.0659 -0.245 0.058 0.961</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact100" type="contact">
+    <contact>
+      <collision>box_collision100</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision101">
+    <pose>-0.01 0.048000000000000015 0.0649 -0.296 0.062 0.95</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual101">
+    <pose>-0.01 0.048000000000000015 0.0649 -0.296 0.062 0.95</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact101" type="contact">
+    <contact>
+      <collision>box_collision101</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision102">
+    <pose>-0.01 0.049000000000000016 0.0649 -0.296 0.062 0.95</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual102">
+    <pose>-0.01 0.049000000000000016 0.0649 -0.296 0.062 0.95</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact102" type="contact">
+    <contact>
+      <collision>box_collision102</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision103">
+    <pose>-0.009 0.05000000000000002 0.0649 -0.281 0.083 0.947</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual103">
+    <pose>-0.009 0.05000000000000002 0.0649 -0.281 0.083 0.947</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact103" type="contact">
+    <contact>
+      <collision>box_collision103</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision104">
+    <pose>-0.003 0.047000000000000014 0.0659 -0.092 0.07 0.986</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual104">
+    <pose>-0.003 0.047000000000000014 0.0659 -0.092 0.07 0.986</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact104" type="contact">
+    <contact>
+      <collision>box_collision104</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision105">
+    <pose>0.002 0.04600000000000001 0.0659 0.092 0.066 0.99</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual105">
+    <pose>0.002 0.04600000000000001 0.0659 0.092 0.066 0.99</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact105" type="contact">
+    <contact>
+      <collision>box_collision105</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision106">
+    <pose>0.007 0.04300000000000001 0.0659 0.319 -0.062 0.923</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual106">
+    <pose>0.007 0.04300000000000001 0.0659 0.319 -0.062 0.923</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact106" type="contact">
+    <contact>
+      <collision>box_collision106</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision107">
+    <pose>0.004 0.04000000000000001 0.0659 0.199 -0.353 0.813</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual107">
+    <pose>0.004 0.04000000000000001 0.0659 0.199 -0.353 0.813</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact107" type="contact">
+    <contact>
+      <collision>box_collision107</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision108">
+    <pose>-0.002 0.04100000000000001 0.0659 -0.044 0.014 0.996</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual108">
+    <pose>-0.002 0.04100000000000001 0.0659 -0.044 0.014 0.996</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact108" type="contact">
+    <contact>
+      <collision>box_collision108</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision109">
+    <pose>0.01 0.05400000000000002 0.0639 0.365 0.069 0.912</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual109">
+    <pose>0.01 0.05400000000000002 0.0639 0.365 0.069 0.912</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact109" type="contact">
+    <contact>
+      <collision>box_collision109</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision110">
+    <pose>0.01 0.048000000000000015 0.0649 0.322 0.043 0.932</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual110">
+    <pose>0.01 0.048000000000000015 0.0649 0.322 0.043 0.932</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact110" type="contact">
+    <contact>
+      <collision>box_collision110</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision111">
+    <pose>0.005 0.05300000000000002 0.0649 0.11 0.035 0.989</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual111">
+    <pose>0.005 0.05300000000000002 0.0649 0.11 0.035 0.989</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact111" type="contact">
+    <contact>
+      <collision>box_collision111</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision112">
+    <pose>0.004 0.05600000000000001 0.0659 0.124 0.024 0.987</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual112">
+    <pose>0.004 0.05600000000000001 0.0659 0.124 0.024 0.987</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact112" type="contact">
+    <contact>
+      <collision>box_collision112</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision113">
+    <pose>-0.001 0.05600000000000001 0.0659 -0.042 0.034 0.993</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual113">
+    <pose>-0.001 0.05600000000000001 0.0659 -0.042 0.034 0.993</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact113" type="contact">
+    <contact>
+      <collision>box_collision113</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision114">
+    <pose>-0.007 0.05700000000000001 0.0649 -0.308 0.069 0.938</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual114">
+    <pose>-0.007 0.05700000000000001 0.0649 -0.308 0.069 0.938</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact114" type="contact">
+    <contact>
+      <collision>box_collision114</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision115">
+    <pose>-0.002 0.06100000000000001 0.0649 -0.082 0.087 0.983</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual115">
+    <pose>-0.002 0.06100000000000001 0.0649 -0.082 0.087 0.983</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact115" type="contact">
+    <contact>
+      <collision>box_collision115</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision116">
+    <pose>0.004 0.06200000000000001 0.0649 0.12 0.08 0.985</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual116">
+    <pose>0.004 0.06200000000000001 0.0649 0.12 0.08 0.985</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact116" type="contact">
+    <contact>
+      <collision>box_collision116</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision117">
+    <pose>0.006 0.06700000000000002 0.0639 0.173 0.116 0.972</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual117">
+    <pose>0.006 0.06700000000000002 0.0639 0.173 0.116 0.972</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact117" type="contact">
+    <contact>
+      <collision>box_collision117</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision118">
+    <pose>0.009 0.06900000000000002 0.0629 0.386 0.14 0.898</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual118">
+    <pose>0.009 0.06900000000000002 0.0629 0.386 0.14 0.898</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact118" type="contact">
+    <contact>
+      <collision>box_collision118</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision119">
+    <pose>0.008 0.06400000000000002 0.0639 0.354 0.082 0.923</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual119">
+    <pose>0.008 0.06400000000000002 0.0639 0.354 0.082 0.923</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact119" type="contact">
+    <contact>
+      <collision>box_collision119</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision120">
+    <pose>0.008 0.05900000000000001 0.0649 0.306 0.087 0.937</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual120">
+    <pose>0.008 0.05900000000000001 0.0649 0.306 0.087 0.937</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact120" type="contact">
+    <contact>
+      <collision>box_collision120</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision121">
+    <pose>0.004 0.07800000000000001 0.0639 0.178 0.173 0.943</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual121">
+    <pose>0.004 0.07800000000000001 0.0639 0.178 0.173 0.943</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact121" type="contact">
+    <contact>
+      <collision>box_collision121</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision122">
+    <pose>0.006 0.07700000000000001 0.0629 0.35 0.13 0.92</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual122">
+    <pose>0.006 0.07700000000000001 0.0629 0.35 0.13 0.92</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact122" type="contact">
+    <contact>
+      <collision>box_collision122</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision123">
+    <pose>0.002 0.07300000000000001 0.0639 0.094 0.081 0.98</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual123">
+    <pose>0.002 0.07300000000000001 0.0639 0.094 0.081 0.98</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact123" type="contact">
+    <contact>
+      <collision>box_collision123</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision124">
+    <pose>-0.003 0.07400000000000001 0.0639 -0.111 0.098 0.98</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual124">
+    <pose>-0.003 0.07400000000000001 0.0639 -0.111 0.098 0.98</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact124" type="contact">
+    <contact>
+      <collision>box_collision124</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision125">
+    <pose>-0.007 0.07 0.0639 -0.214 0.056 0.966</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual125">
+    <pose>-0.007 0.07 0.0639 -0.214 0.056 0.966</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact125" type="contact">
+    <contact>
+      <collision>box_collision125</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision126">
+    <pose>-0.009 0.06600000000000002 0.0629 -0.33 0.077 0.938</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual126">
+    <pose>-0.009 0.06600000000000002 0.0629 -0.33 0.077 0.938</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact126" type="contact">
+    <contact>
+      <collision>box_collision126</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision127">
+    <pose>-0.009 0.07100000000000001 0.0629 -0.376 0.094 0.919</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual127">
+    <pose>-0.009 0.07100000000000001 0.0629 -0.376 0.094 0.919</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact127" type="contact">
+    <contact>
+      <collision>box_collision127</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision128">
+    <pose>-0.007 0.07600000000000001 0.0629 -0.331 0.173 0.917</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual128">
+    <pose>-0.007 0.07600000000000001 0.0629 -0.331 0.173 0.917</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact128" type="contact">
+    <contact>
+      <collision>box_collision128</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision129">
+    <pose>-0.008 0.07800000000000001 0.0619 -0.373 0.167 0.903</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual129">
+    <pose>-0.008 0.07800000000000001 0.0619 -0.373 0.167 0.903</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact129" type="contact">
+    <contact>
+      <collision>box_collision129</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision130">
+    <pose>-0.008 0.08300000000000002 0.0619 -0.325 0.15 0.918</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual130">
+    <pose>-0.008 0.08300000000000002 0.0619 -0.325 0.15 0.918</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact130" type="contact">
+    <contact>
+      <collision>box_collision130</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision131">
+    <pose>-0.004 0.08000000000000002 0.0629 -0.204 0.184 0.956</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual131">
+    <pose>-0.004 0.08000000000000002 0.0629 -0.204 0.184 0.956</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact131" type="contact">
+    <contact>
+      <collision>box_collision131</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision132">
+    <pose>-0.001 0.07800000000000001 0.0639 0.025 0.16 0.971</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual132">
+    <pose>-0.001 0.07800000000000001 0.0639 0.025 0.16 0.971</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact132" type="contact">
+    <contact>
+      <collision>box_collision132</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision133">
+    <pose>-0.019 0.07900000000000001 0.055900000000000005 -0.744 0.189 0.625</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual133">
+    <pose>-0.019 0.07900000000000001 0.055900000000000005 -0.744 0.189 0.625</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact133" type="contact">
+    <contact>
+      <collision>box_collision133</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision134">
+    <pose>-0.015 0.08300000000000002 0.05790000000000001 -0.576 0.217 0.761</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual134">
+    <pose>-0.015 0.08300000000000002 0.05790000000000001 -0.576 0.217 0.761</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact134" type="contact">
+    <contact>
+      <collision>box_collision134</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision135">
+    <pose>-0.017 0.07800000000000001 0.058899999999999994 -0.585 0.135 0.751</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual135">
+    <pose>-0.017 0.07800000000000001 0.058899999999999994 -0.585 0.135 0.751</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact135" type="contact">
+    <contact>
+      <collision>box_collision135</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision136">
+    <pose>-0.016 0.07200000000000001 0.058899999999999994 -0.526 0.116 0.825</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual136">
+    <pose>-0.016 0.07200000000000001 0.058899999999999994 -0.526 0.116 0.825</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact136" type="contact">
+    <contact>
+      <collision>box_collision136</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision137">
+    <pose>-0.015 0.06800000000000002 0.060899999999999996 -0.5 0.107 0.85</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual137">
+    <pose>-0.015 0.06800000000000002 0.060899999999999996 -0.5 0.107 0.85</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact137" type="contact">
+    <contact>
+      <collision>box_collision137</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision138">
+    <pose>-0.016 0.06400000000000002 0.059899999999999995 -0.546 0.074 0.819</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual138">
+    <pose>-0.016 0.06400000000000002 0.059899999999999995 -0.546 0.074 0.819</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact138" type="contact">
+    <contact>
+      <collision>box_collision138</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision139">
+    <pose>-0.017 0.06600000000000002 0.058899999999999994 -0.673 0.092 0.728</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual139">
+    <pose>-0.017 0.06600000000000002 0.058899999999999994 -0.673 0.092 0.728</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact139" type="contact">
+    <contact>
+      <collision>box_collision139</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision140">
+    <pose>-0.019 0.06900000000000002 0.056900000000000006 -0.676 0.126 0.721</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual140">
+    <pose>-0.019 0.06900000000000002 0.056900000000000006 -0.676 0.126 0.721</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact140" type="contact">
+    <contact>
+      <collision>box_collision140</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision141">
+    <pose>-0.021 0.06900000000000002 0.054900000000000004 -0.751 0.112 0.647</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual141">
+    <pose>-0.021 0.06900000000000002 0.054900000000000004 -0.751 0.112 0.647</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact141" type="contact">
+    <contact>
+      <collision>box_collision141</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision142">
+    <pose>-0.024 0.07 0.0509 -0.843 0.113 0.505</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual142">
+    <pose>-0.024 0.07 0.0509 -0.843 0.113 0.505</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact142" type="contact">
+    <contact>
+      <collision>box_collision142</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision143">
+    <pose>-0.021 0.07200000000000001 0.0539 -0.765 0.137 0.624</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual143">
+    <pose>-0.021 0.07200000000000001 0.0539 -0.765 0.137 0.624</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact143" type="contact">
+    <contact>
+      <collision>box_collision143</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision144">
+    <pose>-0.018 0.07400000000000001 0.056900000000000006 -0.726 0.071 0.678</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual144">
+    <pose>-0.018 0.07400000000000001 0.056900000000000006 -0.726 0.071 0.678</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact144" type="contact">
+    <contact>
+      <collision>box_collision144</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision145">
+    <pose>-0.023 0.049000000000000016 0.054900000000000004 -0.731 0.045 0.68</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual145">
+    <pose>-0.023 0.049000000000000016 0.054900000000000004 -0.731 0.045 0.68</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact145" type="contact">
+    <contact>
+      <collision>box_collision145</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision146">
+    <pose>-0.025 0.04600000000000001 0.0539 -0.772 0.068 0.623</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual146">
+    <pose>-0.025 0.04600000000000001 0.0539 -0.772 0.068 0.623</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact146" type="contact">
+    <contact>
+      <collision>box_collision146</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision147">
+    <pose>-0.025 0.05000000000000002 0.0529 -0.802 0.071 0.584</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual147">
+    <pose>-0.025 0.05000000000000002 0.0529 -0.802 0.071 0.584</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact147" type="contact">
+    <contact>
+      <collision>box_collision147</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision148">
+    <pose>-0.024 0.05500000000000001 0.0529 -0.818 0.077 0.56</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual148">
+    <pose>-0.024 0.05500000000000001 0.0529 -0.818 0.077 0.56</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact148" type="contact">
+    <contact>
+      <collision>box_collision148</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision149">
+    <pose>-0.025 0.05900000000000001 0.0519 -0.832 0.067 0.544</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual149">
+    <pose>-0.025 0.05900000000000001 0.0519 -0.832 0.067 0.544</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact149" type="contact">
+    <contact>
+      <collision>box_collision149</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision150">
+    <pose>-0.025 0.06200000000000001 0.0509 -0.835 0.095 0.535</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual150">
+    <pose>-0.025 0.06200000000000001 0.0509 -0.835 0.095 0.535</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact150" type="contact">
+    <contact>
+      <collision>box_collision150</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision151">
+    <pose>-0.023 0.06100000000000001 0.0529 -0.764 0.09 0.637</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual151">
+    <pose>-0.023 0.06100000000000001 0.0529 -0.764 0.09 0.637</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact151" type="contact">
+    <contact>
+      <collision>box_collision151</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision152">
+    <pose>-0.022 0.05800000000000001 0.055900000000000005 -0.721 0.081 0.684</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual152">
+    <pose>-0.022 0.05800000000000001 0.055900000000000005 -0.721 0.081 0.684</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact152" type="contact">
+    <contact>
+      <collision>box_collision152</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision153">
+    <pose>-0.019 0.05700000000000001 0.05790000000000001 -0.681 0.082 0.727</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual153">
+    <pose>-0.019 0.05700000000000001 0.05790000000000001 -0.681 0.082 0.727</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact153" type="contact">
+    <contact>
+      <collision>box_collision153</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision154">
+    <pose>-0.017 0.05700000000000001 0.059899999999999995 -0.562 0.065 0.808</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual154">
+    <pose>-0.017 0.05700000000000001 0.059899999999999995 -0.562 0.065 0.808</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact154" type="contact">
+    <contact>
+      <collision>box_collision154</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision155">
+    <pose>-0.017 0.05400000000000002 0.059899999999999995 -0.543 0.11 0.814</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual155">
+    <pose>-0.017 0.05400000000000002 0.059899999999999995 -0.543 0.11 0.814</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact155" type="contact">
+    <contact>
+      <collision>box_collision155</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision156">
+    <pose>-0.021 0.05300000000000002 0.056900000000000006 -0.711 0.065 0.697</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual156">
+    <pose>-0.021 0.05300000000000002 0.056900000000000006 -0.711 0.065 0.697</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact156" type="contact">
+    <contact>
+      <collision>box_collision156</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision157">
+    <pose>-0.02 0.03900000000000001 0.058899999999999994 -0.674 -0.074 0.715</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual157">
+    <pose>-0.02 0.03900000000000001 0.058899999999999994 -0.674 -0.074 0.715</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact157" type="contact">
+    <contact>
+      <collision>box_collision157</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision158">
+    <pose>-0.023 0.03900000000000001 0.054900000000000004 -0.767 -0.263 0.526</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual158">
+    <pose>-0.023 0.03900000000000001 0.054900000000000004 -0.767 -0.263 0.526</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact158" type="contact">
+    <contact>
+      <collision>box_collision158</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision159">
+    <pose>-0.022 0.04100000000000001 0.05790000000000001 -0.71 0.054 0.693</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual159">
+    <pose>-0.022 0.04100000000000001 0.05790000000000001 -0.71 0.054 0.693</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact159" type="contact">
+    <contact>
+      <collision>box_collision159</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision160">
+    <pose>-0.018 0.04200000000000001 0.059899999999999995 -0.635 0.054 0.763</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual160">
+    <pose>-0.018 0.04200000000000001 0.059899999999999995 -0.635 0.054 0.763</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact160" type="contact">
+    <contact>
+      <collision>box_collision160</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision161">
+    <pose>-0.017 0.047000000000000014 0.0619 -0.625 0.018 0.767</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual161">
+    <pose>-0.017 0.047000000000000014 0.0619 -0.625 0.018 0.767</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact161" type="contact">
+    <contact>
+      <collision>box_collision161</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision162">
+    <pose>-0.016 0.05000000000000002 0.0619 -0.483 0.088 0.852</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual162">
+    <pose>-0.016 0.05000000000000002 0.0619 -0.483 0.088 0.852</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact162" type="contact">
+    <contact>
+      <collision>box_collision162</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision163">
+    <pose>-0.014 0.04500000000000001 0.0629 -0.435 0.03 0.892</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual163">
+    <pose>-0.014 0.04500000000000001 0.0629 -0.435 0.03 0.892</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact163" type="contact">
+    <contact>
+      <collision>box_collision163</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision164">
+    <pose>-0.015 0.04100000000000001 0.0629 -0.471 0.051 0.87</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual164">
+    <pose>-0.015 0.04100000000000001 0.0629 -0.471 0.051 0.87</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact164" type="contact">
+    <contact>
+      <collision>box_collision164</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision165">
+    <pose>-0.014 0.03700000000000002 0.0639 -0.474 0.052 0.87</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual165">
+    <pose>-0.014 0.03700000000000002 0.0639 -0.474 0.052 0.87</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact165" type="contact">
+    <contact>
+      <collision>box_collision165</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision166">
+    <pose>-0.013 0.034000000000000016 0.0639 -0.268 -0.484 0.544</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual166">
+    <pose>-0.013 0.034000000000000016 0.0639 -0.268 -0.484 0.544</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact166" type="contact">
+    <contact>
+      <collision>box_collision166</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision167">
+    <pose>-0.016 0.03600000000000002 0.0629 -0.615 -0.253 0.656</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual167">
+    <pose>-0.016 0.03600000000000002 0.0629 -0.615 -0.253 0.656</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact167" type="contact">
+    <contact>
+      <collision>box_collision167</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision168">
+    <pose>-0.018 0.03800000000000002 0.060899999999999996 -0.603 0.036 0.794</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual168">
+    <pose>-0.018 0.03800000000000002 0.060899999999999996 -0.603 0.036 0.794</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact168" type="contact">
+    <contact>
+      <collision>box_collision168</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision169">
+    <pose>-0.017 0.08900000000000002 0.054900000000000004 -0.648 0.167 0.725</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual169">
+    <pose>-0.017 0.08900000000000002 0.054900000000000004 -0.648 0.167 0.725</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact169" type="contact">
+    <contact>
+      <collision>box_collision169</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision170">
+    <pose>-0.015 0.08800000000000002 0.056900000000000006 -0.533 0.257 0.794</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual170">
+    <pose>-0.015 0.08800000000000002 0.056900000000000006 -0.533 0.257 0.794</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact170" type="contact">
+    <contact>
+      <collision>box_collision170</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision171">
+    <pose>-0.017 0.08600000000000002 0.054900000000000004 -0.697 0.123 0.701</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual171">
+    <pose>-0.017 0.08600000000000002 0.054900000000000004 -0.697 0.123 0.701</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact171" type="contact">
+    <contact>
+      <collision>box_collision171</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision172">
+    <pose>-0.018 0.08400000000000002 0.0539 -0.727 0.175 0.658</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual172">
+    <pose>-0.018 0.08400000000000002 0.0539 -0.727 0.175 0.658</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact172" type="contact">
+    <contact>
+      <collision>box_collision172</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision173">
+    <pose>-0.022 0.07900000000000001 0.0519 -0.797 0.149 0.58</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual173">
+    <pose>-0.022 0.07900000000000001 0.0519 -0.797 0.149 0.58</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact173" type="contact">
+    <contact>
+      <collision>box_collision173</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision174">
+    <pose>-0.024 0.07700000000000001 0.0489 -0.839 0.096 0.514</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual174">
+    <pose>-0.024 0.07700000000000001 0.0489 -0.839 0.096 0.514</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact174" type="contact">
+    <contact>
+      <collision>box_collision174</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision175">
+    <pose>-0.023 0.08000000000000002 0.0489 -0.797 0.109 0.592</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual175">
+    <pose>-0.023 0.08000000000000002 0.0489 -0.797 0.109 0.592</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact175" type="contact">
+    <contact>
+      <collision>box_collision175</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision176">
+    <pose>-0.022 0.08500000000000002 0.0499 -0.784 0.13 0.597</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual176">
+    <pose>-0.022 0.08500000000000002 0.0499 -0.784 0.13 0.597</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact176" type="contact">
+    <contact>
+      <collision>box_collision176</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision177">
+    <pose>-0.022 0.09100000000000001 0.0499 -0.789 0.121 0.589</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual177">
+    <pose>-0.022 0.09100000000000001 0.0499 -0.789 0.121 0.589</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact177" type="contact">
+    <contact>
+      <collision>box_collision177</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision178">
+    <pose>-0.02 0.09500000000000001 0.0499 -0.564 0.406 0.604</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual178">
+    <pose>-0.02 0.09500000000000001 0.0499 -0.564 0.406 0.604</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact178" type="contact">
+    <contact>
+      <collision>box_collision178</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision179">
+    <pose>-0.02 0.09200000000000001 0.0509 -0.717 0.141 0.669</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual179">
+    <pose>-0.02 0.09200000000000001 0.0509 -0.717 0.141 0.669</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact179" type="contact">
+    <contact>
+      <collision>box_collision179</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision180">
+    <pose>-0.019 0.09000000000000001 0.0519 -0.731 0.076 0.677</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual180">
+    <pose>-0.019 0.09000000000000001 0.0519 -0.731 0.076 0.677</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact180" type="contact">
+    <contact>
+      <collision>box_collision180</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision181">
+    <pose>-0.026 0.09400000000000001 0.0409 -0.887 0.191 0.336</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual181">
+    <pose>-0.026 0.09400000000000001 0.0409 -0.887 0.191 0.336</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact181" type="contact">
+    <contact>
+      <collision>box_collision181</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision182">
+    <pose>-0.024 0.09700000000000002 0.0439 -0.51 0.408 0.475</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual182">
+    <pose>-0.024 0.09700000000000002 0.0439 -0.51 0.408 0.475</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact182" type="contact">
+    <contact>
+      <collision>box_collision182</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision183">
+    <pose>-0.025 0.09200000000000001 0.0429 -0.876 0.19 0.416</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual183">
+    <pose>-0.025 0.09200000000000001 0.0429 -0.876 0.19 0.416</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact183" type="contact">
+    <contact>
+      <collision>box_collision183</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision184">
+    <pose>-0.026 0.08700000000000002 0.0419 -0.911 0.105 0.366</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual184">
+    <pose>-0.026 0.08700000000000002 0.0419 -0.911 0.105 0.366</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact184" type="contact">
+    <contact>
+      <collision>box_collision184</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision185">
+    <pose>-0.026 0.08100000000000002 0.0439 -0.864 -0.058 0.324</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual185">
+    <pose>-0.026 0.08100000000000002 0.0439 -0.864 -0.058 0.324</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact185" type="contact">
+    <contact>
+      <collision>box_collision185</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision186">
+    <pose>-0.025 0.08000000000000002 0.0469 -0.801 -0.086 0.457</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual186">
+    <pose>-0.025 0.08000000000000002 0.0469 -0.801 -0.086 0.457</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact186" type="contact">
+    <contact>
+      <collision>box_collision186</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision187">
+    <pose>-0.027 0.08100000000000002 0.0419 -0.93 -0.015 0.234</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual187">
+    <pose>-0.027 0.08100000000000002 0.0419 -0.93 -0.015 0.234</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact187" type="contact">
+    <contact>
+      <collision>box_collision187</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision188">
+    <pose>-0.027 0.08500000000000002 0.038900000000000004 -0.97 0.061 0.207</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual188">
+    <pose>-0.027 0.08500000000000002 0.038900000000000004 -0.97 0.061 0.207</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact188" type="contact">
+    <contact>
+      <collision>box_collision188</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision189">
+    <pose>-0.029 0.08400000000000002 0.0329 -0.983 0.037 0.164</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual189">
+    <pose>-0.029 0.08400000000000002 0.0329 -0.983 0.037 0.164</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact189" type="contact">
+    <contact>
+      <collision>box_collision189</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision190">
+    <pose>-0.029 0.08500000000000002 0.028900000000000002 -0.991 0.081 0.107</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual190">
+    <pose>-0.029 0.08500000000000002 0.028900000000000002 -0.991 0.081 0.107</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact190" type="contact">
+    <contact>
+      <collision>box_collision190</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision191">
+    <pose>-0.029 0.08700000000000002 0.0329 -0.969 0.138 0.161</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual191">
+    <pose>-0.029 0.08700000000000002 0.0329 -0.969 0.138 0.161</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact191" type="contact">
+    <contact>
+      <collision>box_collision191</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision192">
+    <pose>-0.027 0.08900000000000002 0.038900000000000004 -0.953 0.147 0.222</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual192">
+    <pose>-0.027 0.08900000000000002 0.038900000000000004 -0.953 0.147 0.222</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact192" type="contact">
+    <contact>
+      <collision>box_collision192</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision193">
+    <pose>0.0 0.14 0.0229 -0.0 -0.0 -0.0</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual193">
+    <pose>0.0 0.14 0.0229 -0.0 -0.0 -0.0</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact193" type="contact">
+    <contact>
+      <collision>box_collision193</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision205">
+    <pose>-0.026 0.08700000000000002 0.0069 -0.905 0.082 -0.406</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual205">
+    <pose>-0.026 0.08700000000000002 0.0069 -0.905 0.082 -0.406</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact205" type="contact">
+    <contact>
+      <collision>box_collision205</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision206">
+    <pose>0.0 0.14 0.0229 -0.0 -0.0 -0.0</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual206">
+    <pose>0.0 0.14 0.0229 -0.0 -0.0 -0.0</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact206" type="contact">
+    <contact>
+      <collision>box_collision206</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision207">
+    <pose>0.03 0.08700000000000002 0.0119 0.969 0.12 -0.171</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual207">
+    <pose>0.03 0.08700000000000002 0.0119 0.969 0.12 -0.171</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact207" type="contact">
+    <contact>
+      <collision>box_collision207</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision208">
+    <pose>0.029 0.08900000000000002 0.0109 0.942 0.129 -0.26</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual208">
+    <pose>0.029 0.08900000000000002 0.0109 0.942 0.129 -0.26</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact208" type="contact">
+    <contact>
+      <collision>box_collision208</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision209">
+    <pose>0.028 0.08600000000000002 0.0069 0.891 0.124 -0.396</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual209">
+    <pose>0.028 0.08600000000000002 0.0069 0.891 0.124 -0.396</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact209" type="contact">
+    <contact>
+      <collision>box_collision209</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision210">
+    <pose>0.028 0.08200000000000002 0.004900000000000002 0.883 0.15 -0.385</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual210">
+    <pose>0.028 0.08200000000000002 0.004900000000000002 0.883 0.15 -0.385</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact210" type="contact">
+    <contact>
+      <collision>box_collision210</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision211">
+    <pose>0.027 0.07900000000000001 9.000000000000015E-4 0.86 0.189 -0.419</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual211">
+    <pose>0.027 0.07900000000000001 9.000000000000015E-4 0.86 0.189 -0.419</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact211" type="contact">
+    <contact>
+      <collision>box_collision211</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision212">
+    <pose>0.025 0.07800000000000001 -0.002100000000000001 0.395 -0.283 -0.427</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual212">
+    <pose>0.025 0.07800000000000001 -0.002100000000000001 0.395 -0.283 -0.427</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact212" type="contact">
+    <contact>
+      <collision>box_collision212</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision213">
+    <pose>0.028 0.07600000000000001 0.0029 0.501 -0.296 -0.278</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual213">
+    <pose>0.028 0.07600000000000001 0.0029 0.501 -0.296 -0.278</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact213" type="contact">
+    <contact>
+      <collision>box_collision213</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision214">
+    <pose>0.03 0.07700000000000001 0.0079 0.95 0.145 -0.241</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual214">
+    <pose>0.03 0.07700000000000001 0.0079 0.95 0.145 -0.241</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact214" type="contact">
+    <contact>
+      <collision>box_collision214</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision215">
+    <pose>0.031 0.07500000000000001 0.0119 0.726 -0.149 -0.173</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual215">
+    <pose>0.031 0.07500000000000001 0.0119 0.726 -0.149 -0.173</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact215" type="contact">
+    <contact>
+      <collision>box_collision215</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision216">
+    <pose>0.031 0.07300000000000001 0.0169 0.131 -0.769 -0.155</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual216">
+    <pose>0.031 0.07300000000000001 0.0169 0.131 -0.769 -0.155</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact216" type="contact">
+    <contact>
+      <collision>box_collision216</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision217">
+    <pose>0.031 0.07800000000000001 0.0159 0.984 0.102 -0.088</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual217">
+    <pose>0.031 0.07800000000000001 0.0159 0.984 0.102 -0.088</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact217" type="contact">
+    <contact>
+      <collision>box_collision217</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision253">
+    <pose>0.021 0.07900000000000001 -0.006100000000000001 0.178 -0.48 -0.54</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual253">
+    <pose>0.021 0.07900000000000001 -0.006100000000000001 0.178 -0.48 -0.54</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact253" type="contact">
+    <contact>
+      <collision>box_collision253</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision254">
+    <pose>0.021 0.08200000000000002 -0.0051 0.722 0.179 -0.639</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual254">
+    <pose>0.021 0.08200000000000002 -0.0051 0.722 0.179 -0.639</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact254" type="contact">
+    <contact>
+      <collision>box_collision254</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision255">
+    <pose>0.021 0.08800000000000002 -0.0040999999999999995 0.644 0.152 -0.741</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual255">
+    <pose>0.021 0.08800000000000002 -0.0040999999999999995 0.644 0.152 -0.741</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact255" type="contact">
+    <contact>
+      <collision>box_collision255</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision256">
+    <pose>0.0 0.14 0.0229 -0.0 -0.0 -0.0</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual256">
+    <pose>0.0 0.14 0.0229 -0.0 -0.0 -0.0</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact256" type="contact">
+    <contact>
+      <collision>box_collision256</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision257">
+    <pose>-0.018 0.099 -0.002100000000000001 -0.613 0.156 -0.765</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual257">
+    <pose>-0.018 0.099 -0.002100000000000001 -0.613 0.156 -0.765</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact257" type="contact">
+    <contact>
+      <collision>box_collision257</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision258">
+    <pose>-0.021 0.099 -9.99999999999994E-5 -0.792 0.145 -0.578</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual258">
+    <pose>-0.021 0.099 -9.99999999999994E-5 -0.792 0.145 -0.578</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact258" type="contact">
+    <contact>
+      <collision>box_collision258</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision259">
+    <pose>-0.02 0.09400000000000001 -0.002100000000000001 -0.708 0.133 -0.683</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual259">
+    <pose>-0.02 0.09400000000000001 -0.002100000000000001 -0.708 0.133 -0.683</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact259" type="contact">
+    <contact>
+      <collision>box_collision259</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision260">
+    <pose>-0.017 0.09200000000000001 -0.0051 -0.567 0.179 -0.79</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual260">
+    <pose>-0.017 0.09200000000000001 -0.0051 -0.567 0.179 -0.79</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact260" type="contact">
+    <contact>
+      <collision>box_collision260</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision261">
+    <pose>-0.017 0.08700000000000002 -0.006100000000000001 -0.621 0.141 -0.749</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual261">
+    <pose>-0.017 0.08700000000000002 -0.006100000000000001 -0.621 0.141 -0.749</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact261" type="contact">
+    <contact>
+      <collision>box_collision261</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision262">
+    <pose>-0.015 0.08300000000000002 -0.0081 -0.232 -0.252 -0.704</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual262">
+    <pose>-0.015 0.08300000000000002 -0.0081 -0.232 -0.252 -0.704</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact262" type="contact">
+    <contact>
+      <collision>box_collision262</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision263">
+    <pose>-0.013 0.08700000000000002 -0.0081 -0.2 0.046 -0.946</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual263">
+    <pose>-0.013 0.08700000000000002 -0.0081 -0.2 0.046 -0.946</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact263" type="contact">
+    <contact>
+      <collision>box_collision263</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision264">
+    <pose>-0.012 0.09200000000000001 -0.0081 -0.399 0.157 -0.9</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual264">
+    <pose>-0.012 0.09200000000000001 -0.0081 -0.399 0.157 -0.9</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact264" type="contact">
+    <contact>
+      <collision>box_collision264</collision>
+    </contact>
+  </sensor>
+  <collision name="box_collision265">
+    <pose>-0.008 0.09400000000000001 -0.0091 -0.132 0.086 -0.969</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </collision>
+  <visual name="visual265">
+    <pose>-0.008 0.09400000000000001 -0.0091 -0.132 0.086 -0.969</pose>
+    <geometry>
+      <box>
+        <size>0.002 0.002 0.002</size>
+      </box>
+    </geometry>
+  </visual>
+  <sensor name="my_contact265" type="contact">
+    <contact>
+      <collision>box_collision265</collision>
+    </contact>
+  </sensor>
+</sdf>

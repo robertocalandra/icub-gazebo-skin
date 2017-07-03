@@ -1,0 +1,2 @@
+- the GenerateXMLTorso.java is fully documented. All other files are the same
+- when the sdf file is created, the content has to be pasted in the iCub.sdf file to the related body part
