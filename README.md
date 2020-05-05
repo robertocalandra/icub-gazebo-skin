@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-<img height="250" src="/docs/kin_torso.png" alt="Skin Torso" />
+<img height="250" src="/docs/skin_torso.png" alt="Skin Torso" />
 
 This is the Gazebo-Yarp Plugin to simulate the iCub Skin. 
 This code was developed as part of a student project and its final report is available [here](http://www.ias.tu-darmstadt.de/uploads/Team/RobertoCalandra/Moritz_Jan_Towards_Balancing_with_the_iCub.pdf) (also contain few technical information).
